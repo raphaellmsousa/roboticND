@@ -1,6 +1,0 @@
-<launch>
-
-	<!-- running the cam node -->
-	<node name="cam_node" pkg="cam_ball_detection" type="cam_node.py" respawn="true"/>
-
-</launch>
