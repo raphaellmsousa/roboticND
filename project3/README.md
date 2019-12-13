@@ -1,6 +1,6 @@
 # Udacity AMCL Where Am I
 
-![Output](https://github.com/raphaellmsousa/roboticND/project3/my_robot/video_pics/gif0.gif)
+![Output](https://github.com/raphaellmsousa/roboticND/tree/master/project3/my_robot/video_pics/gif0.gif)
 
 ## Instructions
 
