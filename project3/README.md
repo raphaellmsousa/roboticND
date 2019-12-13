@@ -1,8 +1,6 @@
 # Udacity AMCL Where Am I
 
-![Output](https://github.com/raphaellmsousa/roboticND/tree/master/project3/video_pics/project.png)
-
-![Output](https://github.com/raphaellmsousa/roboticND/tree/master/project3/video_pics/project2.png)
+Check the results in the video_pics folder
 
 ## Instructions
 
