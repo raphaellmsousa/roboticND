@@ -5,12 +5,6 @@
 
 ![Output](https://github.com/raphaellmsousa/roboticND/tree/master/project3/my_robot/video_pics/gif0.gif)
 
-
-![Output](https://github.com/raphaellmsousa/roboticND/tree/master/project3/my_robot/video_pics/gif1.gif)
-
-![Output](https://github.com/raphaellmsousa/roboticND/tree/master/project3/my_robot/video_pics/gif2.gif)
-
-
 ## Instructions
 
 ##### 1. Create a catking workspace:
