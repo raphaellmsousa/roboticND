@@ -2,6 +2,8 @@
 
 ![Output](https://github.com/raphaellmsousa/roboticND/tree/master/project3/my_robot/video_pics/gif0.gif)
 
+![Output](https://github.com/gonfreces/Udacity_AMCL_Where_Am_I/blob/master/my_robot/video_pics/ezgif.com-gif-maker.gif)
+
 ## Instructions
 
 ##### 1. Create a catking workspace:
