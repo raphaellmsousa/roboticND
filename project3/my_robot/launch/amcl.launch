@@ -1,3 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
 <launch>	
 	<!-- TODO: map server node / amcl node / move base node -->	
 	
@@ -10,13 +12,13 @@
 		<remap from="scan" to="my_robot/laser/scan"/>
 		
 		<!-- Overall filter parameters -->	
-		<param name="initial_pose_x" value="0.4" /> <!-- -1.1 -->
-		<param name="initial_pose_y" value="2.45" /> <!-- 1.63 -->
-		<param name="initial_pose_a" value="0.0" /> <!-- YAW -->
-		<param name="min_particles" value="100" />	<!-- Default = 100 -->
-		<param name="max_particles" value="500" />	<!-- Default = 5000 -->
-		<param name="update_min_d" value="0.1" />	<!-- Translational movement required before performing a filter update -->
-		<param name="update_min_a" value="0.1" />	<!-- Rotational movement required before performing a filter update -->	
+		<param name="initial_pose_x" value="0.4" /> 
+		<param name="initial_pose_y" value="2.45" /> 
+		<param name="initial_pose_a" value="0.0" /> 
+		<param name="min_particles" value="100" />	
+		<param name="max_particles" value="500" />	
+		<param name="update_min_d" value="0.1" />	
+		<param name="update_min_a" value="0.1" />	
 
 		<!-- Laser parameters -->	
 		<param name="laser_min_range" value="0.01" />
