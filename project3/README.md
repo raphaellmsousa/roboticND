@@ -4,6 +4,18 @@ Check the results in the video_pics folder
 
 ## Instructions
 
+## 0. Installation Instructions
+
+First, for a native application, we must install the navigation stack package as follow:
+
+``` bash
+$ sudo apt-get install ros-kinetic-navigation
+$ sudo apt-get install ros-kinetic-map-server
+$ sudo apt-get install ros-kinetic-move-base
+$ rospack profile
+$ sudo apt-get install ros-kinetic-amcl
+```
+
 ##### 1. Create a catking workspace:
 ```sh
 mkdir -p ~/catkin_ws/src
