@@ -4,7 +4,7 @@ Check the results in the video_pics folder
 
 ## Instructions
 
-## 0. Installation Instructions
+##### 1. Install all required packages:
 
 First, for a native application, we must install the navigation stack package as follow:
 
@@ -16,20 +16,20 @@ $ rospack profile
 $ sudo apt-get install ros-kinetic-amcl
 ```
 
-##### 1. Create a catking workspace:
+##### 2. Create a catking workspace:
 ```sh
 mkdir -p ~/catkin_ws/src
 cd ~/catkin_ws/src
 catkin_init_workspace
 ```
-##### 2. Clone and download this repository package to your ROS Workspace src folder:
+##### 3. Clone and download this repository package to your ROS Workspace src folder:
 ```sh
 $ cd ~/catkin_ws/
 $ git clone https://github.com/raphaellmsousa/roboticND.git 
 $ catkin_make
 
 ```
-##### 3. Launch the robot inside your world:
+##### 4. Launch the robot inside your world:
 
 This can be done by launching the world.launch file:
 
@@ -39,7 +39,7 @@ $ source devel/setup.bash
 $ roslaunch my_robot world.launch
 ```
 
-##### 4. Run the AMCL node:
+##### 5. Run the AMCL node:
 
 This can be done by executing ball_chaser.launch:
 
