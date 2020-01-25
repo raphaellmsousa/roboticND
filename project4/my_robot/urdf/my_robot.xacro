@@ -225,15 +225,15 @@
   
   <!-- add color here -->
   <gazebo reference="chassis">
-    <material>Gazebo/Red</material>
+    <material>Gazebo/Blue</material>
   </gazebo>
   <gazebo reference="left_wheel">
-    <material>Gazebo/Grey</material>
+    <material>Gazebo/Red</material>
   </gazebo>
   <gazebo reference="right_wheel">
-    <material>Gazebo/Grey</material>
+    <material>Gazebo/Red</material>
   </gazebo>
   <gazebo reference="camera">
-    <material>Gazebo/White</material>
+    <material>Gazebo/white</material>
   </gazebo>
 </robot>

@@ -2,7 +2,7 @@
 
 <launch>
   <!-- Arguments for launch file with defaults provided -->
-  <arg name="database_path"     default="$(find mapping)/rtabmap.db"/>
+  <arg name="database_path"     default="$(find my_robot)/rtabmap.db"/>
   <arg name="rgb_topic"   default="/camera/rgb/image_raw"/>
   <arg name="depth_topic" default="/camera/depth/image_raw"/>
   <arg name="camera_info_topic" default="/camera/rgb/camera_info"/>  
@@ -20,7 +20,7 @@
       <param name="subscribe_scan"      type="bool"   value="true"/>
 
       <!-- RTAB-Map Inputs -->
-      <remap from="scan" to="/localization/laser/scan"/>
+      <remap from="scan" to="/scan"/>
       <remap from="rgb/image" to="$(arg rgb_topic)"/>
       <remap from="depth/image" to="$(arg depth_topic)"/>
       <remap from="rgb/camera_info" to="$(arg camera_info_topic)"/>
@@ -65,7 +65,7 @@
         <remap from="rgb/image"       to="$(arg rgb_topic)"/>
         <remap from="depth/image"     to="$(arg depth_topic)"/>
         <remap from="rgb/camera_info" to="$(arg camera_info_topic)"/>
-        <remap from="scan"            to="/localization/laser/scan"/>
+        <remap from="scan"            to="/scan"/>
     </node>
   </group>
 </launch>
