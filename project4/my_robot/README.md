@@ -40,7 +40,7 @@ $ roslaunch my_robot world.launch
 ```sh
 $ cd /home/workspace/catkin_ws/
 $ source devel/setup.bash
-$ roslaunch slam_bot teleop.launch
+$ roslaunch my_robot teleop.launch
 ```
 
 ##### 6. Run the mapping node:
@@ -48,7 +48,7 @@ $ roslaunch slam_bot teleop.launch
 ```sh
 $ cd /home/workspace/catkin_ws/
 $ source devel/setup.bash
-$ roslaunch slam_bot mapping.launch
+$ roslaunch my_robot mapping.launch
 ```
 
 If you want to perform localization by using the generated map (step 6), you can launch the localization node as follow:
@@ -58,7 +58,7 @@ If you want to perform localization by using the generated map (step 6), you can
 ```sh
 $ cd /home/workspace/catkin_ws/
 $ source devel/setup.bash
-$ roslaunch slam_bot localization.launch
+$ roslaunch my_robot localization.launch
 ```
 
 
