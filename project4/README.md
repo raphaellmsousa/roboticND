@@ -8,8 +8,6 @@ https://drive.google.com/file/d/14Uo_zJjSx4gZxx5RL3HivcGSlUMh5o5D/view?usp=shari
 
 ##### 1. Install all required packages:
 
-First, for a native application, we must install the navigation stack package as follow:
-
 ``` bash
 $ sudo apt-get install ros-kinetic-rtabmap ros-kinetic-rtabmap-ros 
 ```
