@@ -1,6 +1,8 @@
 # Udacity AMCL Where Am I
 
-Check the results in the video_pics folder
+This is the link for the rtabmap.db file:
+
+https://drive.google.com/file/d/14Uo_zJjSx4gZxx5RL3HivcGSlUMh5o5D/view?usp=sharing
 
 ## Instructions
 
@@ -60,5 +62,6 @@ $ cd /home/workspace/catkin_ws/
 $ source devel/setup.bash
 $ roslaunch my_robot localization.launch
 ```
+
 
 
