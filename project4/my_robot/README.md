@@ -1,4 +1,4 @@
-# Udacity AMCL Where Am I
+# Udacity Map My World project
 
 This is the link for the rtabmap.db file:
 
