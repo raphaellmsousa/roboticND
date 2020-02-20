@@ -24,11 +24,17 @@ int main(int argc, char** argv){
   goal.target_pose.header.stamp = ros::Time::now();
 
   // Define a position and orientation for the robot to reach
-  goal.target_pose.pose.position.x = 1.0;
-  goal.target_pose.pose.orientation.w = 1.0;
+  goal.target_pose.pose.position.x = 6.69;
+  goal.target_pose.pose.position.y = 5.67;
+  goal.target_pose.pose.orientation.w = -0.00143;
 
    // Send the goal position and orientation for the robot to reach
-  ROS_INFO("Sending goal");
+  ROS_INFO("Sending first goal at x: %f, y: %f, w: %f",
+    goal.target_pose.pose.position.x,
+    goal.target_pose.pose.position.y,
+    goal.target_pose.pose.orientation.w
+    );
+    
   ac.sendGoal(goal);
 
   // Wait an infinite time for the results
@@ -36,9 +42,34 @@ int main(int argc, char** argv){
 
   // Check if the robot reached its goal
   if(ac.getState() == actionlib::SimpleClientGoalState::SUCCEEDED)
-    ROS_INFO("Hooray, the base moved 1 meter forward");
+    ROS_INFO("The robot has reached the first goal");
   else
-    ROS_INFO("The base failed to move forward 1 meter for some reason");
+    ROS_INFO("The base failed to move for some reason");
 
+  if(ac.getState() == actionlib::SimpleClientGoalState::SUCCEEDED)
+  {
+    // Define a position and orientation for the robot to reach
+    goal.target_pose.pose.position.x = 9.63;
+    goal.target_pose.pose.position.y = 6.53;
+    goal.target_pose.pose.orientation.w = -0.00143;
+
+   // Send the goal position and orientation for the robot to reach
+    ROS_INFO("Sending secound goal at x: %f, y: %f, w: %f",
+    goal.target_pose.pose.position.x,
+    goal.target_pose.pose.position.y,
+    goal.target_pose.pose.orientation.w
+    );
+    
+    ac.sendGoal(goal);
+
+    // Wait an infinite time for the results
+    ac.waitForResult();
+
+    // Check if the robot reached its goal
+    if(ac.getState() == actionlib::SimpleClientGoalState::SUCCEEDED)
+      ROS_INFO("That's all! Final destination!");
+    else
+      ROS_INFO("The base failed to move for some reason");
+    }
   return 0;
 }
