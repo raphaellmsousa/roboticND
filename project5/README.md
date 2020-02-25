@@ -16,6 +16,12 @@ Localization isn't an easy task! Consists in determining the pose (x, y and thet
 
 3. Kidnapped robot problem: this problem is a particular case of the global localization. In this case, the robot can be kidnapped to a new location any time. This is the hardest problem for localization.
 
+There are some algorithms for localization as Kalman Filter and Monte Carlo Localization (MCL). MCL solves local and global localization and it is one os the most famous algorithms to localize robots. Sometimes, MCL is refered as particle filter because uses particles that has an estimative of the position and orientation of the robot. 
+
+ROS provides the AMCL package that can performs localization. It is possible to find more details here http://wiki.ros.org/amcl
+
+The next figure presents the results of the AMCL package. The green arrows represent each particle, and it is possible to see that these arrows are pointing to the robot. 
+
 <p align="center">
     <img src="./figs/localization.png" width="600" height="360" title="Home Service Robot">
 </p> 
