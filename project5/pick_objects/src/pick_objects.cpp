@@ -30,7 +30,7 @@ int main(int argc, char** argv){
 
   setDestination(6.69, 5.67, -0.00143);
 
-  ros::Duration(30.0).sleep();
+  ros::Duration(5.0).sleep();
 
    // Send the goal position and orientation for the robot to reach
   ROS_INFO("Sending location of first goal");
@@ -43,7 +43,7 @@ int main(int argc, char** argv){
 
   // Check if the robot reached its goal
   if(ac.getState() == actionlib::SimpleClientGoalState::SUCCEEDED){
-    ROS_INFO("Nice, the base moved forward");
+    ROS_INFO("Package picked up!");
         // Update Robot Status using paramter server
     ros::param::set("/robot_coord", "Picked_Up");
   }
@@ -70,7 +70,7 @@ int main(int argc, char** argv){
 
   // Check if the robot reached its goal
   if(ac.getState() == actionlib::SimpleClientGoalState::SUCCEEDED){
-    ROS_INFO("Nice work, the base moved backward");
+    ROS_INFO("Robot has reached the dropper off zone, mission concluded!");
      // Update Robot Status using paramter server
     ros::param::set("/robot_coord", "Dropped_Off");
   }
