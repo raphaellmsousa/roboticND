@@ -60,7 +60,7 @@ $ ./home_service.sh
 ##### 5. Results
 
 <p align="center">
-    <img src="./figs/project5.png" width="1200" height="360" title="Home Service Robot">
+    <img src="./figs/project5.png" width="1200" height="720" title="Home Service Robot">
 </p> 
 
 
