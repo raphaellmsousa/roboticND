@@ -16,6 +16,10 @@ Localization isn't an easy task! Consists in determining the pose (x, y and thet
 
 3. Kidnapped robot problem: this problem is a particular case of the global localization. In this case, the robot can be kidnapped to a new location any time. This is the hardest problem for localization.
 
+<p align="center">
+    <img src="./figs/localization.png" width="600" height="360" title="Home Service Robot">
+</p> 
+
 ## Instructions
 
 ##### 1. Install all required packages:
