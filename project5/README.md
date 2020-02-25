@@ -31,7 +31,7 @@ $ catkin_make
 ```
 ##### 4. Start the shell scripts:
 
-This can be done by launching the world.launch file:
+This can be done as follow:
 
 ```sh
 $ cd /home/workspace/catkin_ws/
