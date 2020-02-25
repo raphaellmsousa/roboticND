@@ -25,7 +25,6 @@ catkin_init_workspace
 ##### 3. Clone and download this repository package to your ROS Workspace src folder:
 
 ```sh
-$ cd ~/catkin_ws/
 $ git clone https://github.com/raphaellmsousa/roboticND.git 
 $ catkin_make
 ```
