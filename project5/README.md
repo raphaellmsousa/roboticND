@@ -43,7 +43,7 @@ $ git clone https://github.com/turtlebot/turtlebot_interactions
 $ git clone https://github.com/turtlebot/turtlebot_simulator
 ```
 
-Obs.: the above packages provided in this repository has some minor changes for this project, but should work with the original packages.
+Obs.: the above packages provided in this repository has some minor changes for this project, but should work with the original ones.
 
 ##### 4. Start the shell scripts:
 
