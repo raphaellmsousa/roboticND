@@ -26,6 +26,7 @@ catkin_init_workspace
 
 ```sh
 $ git clone https://github.com/raphaellmsousa/roboticND.git 
+$ cd ..
 $ catkin_make
 ```
 ##### 4. Start the shell scripts:
