@@ -2,7 +2,19 @@
 
 # Udacity Home Service Robot 
 
-This is the final project of the Robot Nanodegree from Udacity. The main goal is coding a Home Service Robot to pick up and delivery a package autonomously. As follow, it will be presented the start up of the proposed solution for this project:
+This is the final project of the Robot Nanodegree from Udacity. The main goal is coding a Home Service Robot to pick up and delivery a package autonomously. 
+
+For this project, it was necessary to perform localization, mapping and navigation. 
+
+## Localization
+
+Localization isn't an easy task! Consists in determining the pose (x, y and theta) of the robot in a mapped environment. As presented in the classes, there are 3 types of localization problems: 
+
+1. Position Tracking (local localization): in this problem, the robot knows the initial position and has to estimate its position and oriantation while it moves out on the environment;
+
+2. Global Localization: in this case, the initial pose is unkown and the robot has to determinate its position relative to a ground truth map.
+
+3. Kidnapped robot problem: this problem is a particular case of the global localization. In this case, the robot can be kidnapped to a new location any time. This is the hardest problem for localization.
 
 ## Instructions
 
