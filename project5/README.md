@@ -4,11 +4,11 @@
 
 This is the final project of the Robot Nanodegree from Udacity. The main goal is coding a Home Service Robot to pick up and delivery a package autonomously. 
 
-For this project, it was necessary to perform localization, mapping and navigation. 
+For this project, it was necessary to perform localization, mapping and navigation. Next, it is presented a brief explanation about these problems.
 
 ## Localization
 
-Localization isn't an easy task! Consists in determining the pose (x, y and theta) of the robot in a mapped environment. As presented in the classes, there are 3 types of localization problems: 
+Localization isn't an easy task! Consists in determining the pose and orientation (x, y and theta) of the robot in a mapped environment. As presented in the classes, there are 3 types of localization problems: 
 
 1. Position Tracking (local localization): in this problem, the robot knows the initial position and has to estimate its position and oriantation while it moves out on the environment;
 
@@ -18,7 +18,7 @@ Localization isn't an easy task! Consists in determining the pose (x, y and thet
 
 There are some algorithms for localization as Kalman Filter and Monte Carlo Localization (MCL). MCL solves local and global localization and it is one os the most famous algorithms to localize robots. Sometimes, MCL is refered as particle filter because uses particles that has an estimative of the position and orientation of the robot. 
 
-ROS provides the AMCL package that can performs localization. It is possible to find more details here http://wiki.ros.org/amcl
+ROS provides the AMCL package that can performs localization, it is possible to find more details here http://wiki.ros.org/amcl
 
 The next figure presents the results of the AMCL package. The green arrows represent each particle, and it is possible to see that these arrows are pointing to the robot. 
 
@@ -29,17 +29,17 @@ The next figure presents the results of the AMCL package. The green arrows repre
 
 ## Mapping
 
-Next requirement for the home service robot is to map the environment. ROS also provides some packages for mapping, in the project Map My World it was used the RTAB-Map (Real-Time Appearance-Based Mapping), it is possible to find more information about this package here wiki.ros.org/rtabmap_ros.
+Next requirement for the Home Service Robot is to map the environment. ROS also provides some packages for mapping, in the project Map My World it was used the RTAB-Map (Real-Time Appearance-Based Mapping), it is possible to find more information about this package here wiki.ros.org/rtabmap_ros.
 
 Here in this project it was used the gmapping package for mapping. This package uses the occupancy grid algorithm to build a 2d map from the environment. It is possible to find more information here http://wiki.ros.org/gmapping.
 
-After mapping, it is possible to save the results with the follow command:
+Obs1.: after mapping, it is possible to save the results with the follow command:
 
 ```bash
 rosrun map_server map_saver -f /home/raphaell/workspace/catkin_ws/src/map
 ```
 
-Obs.: after running the above command, we got this error:
+Obs2.: after running the above command, we got this error:
 
 ```bash
 rospack: error while loading shared libraries: librospack.so
