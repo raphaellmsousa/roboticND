@@ -58,6 +58,18 @@ The next picture presents the gerereted 2d map.
 
 ## Navigation
 
+Navigation is the ability to navigate in an enviroment. In this project, the robot should follow a 2d navigation goal provided by the user. For this task, it was used the navigation stack package. As provided in the lessons "the ROS navigation stack creates a path for your robot based on Dijkstra's algorithm, a variant of the Uniform Cost Search algorithm, while avoiding obstacles on its path".
+
+Navigation stack is an amazing tool to solve the path planing problem. This package uses information of sensors, as odometry and LIDAR measurements, and the output is commands of velocity to move the robot for the goal position. 
+
+It is possible to adjust parameters as distance between the robot and obstacles, maximum speed and more. It is possible to find more information about navigation stack here http://wiki.ros.org/navigation.
+
+The next figure presents the result of the navigation stack aftar calculate the path to the goal. The green line corresponds to the global path plannig, also, it is possible to see blue outlines around the obstacles. The thickness of the outlines are regulated by the user, and how much bigger is, more distante the robot goes close to obstacles. 
+
+<p align="center">
+    <img src="./figs/navigation.png" width="600" height="360" title="Home Service Robot">
+</p> 
+
 ## Instructions
 
 ##### 1. Install all required packages:
