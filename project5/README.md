@@ -62,7 +62,7 @@ Navigation is the ability to navigate in an enviroment. In this project, the rob
 
 Navigation stack is an amazing tool to solve the path planing problem. This package uses information of sensors, as odometry and LIDAR measurements, and the output is commands of velocity to move the robot for the goal position. 
 
-It is possible to adjust parameters as distance between the robot and obstacles, maximum speed and more. It is possible to find more information about navigation stack here http://wiki.ros.org/navigation.
+It is possible to adjust parameters as distance between the robot and obstacles, maximum speed and more. For more details, please visit http://wiki.ros.org/navigation.
 
 The next figure presents the result of the navigation stack aftar calculate the path to the goal. The green line corresponds to the global path plannig, also, it is possible to see blue outlines around the obstacles. The thickness of the outlines are regulated by the user, and how much bigger is, more distante the robot goes close to obstacles. 
 
