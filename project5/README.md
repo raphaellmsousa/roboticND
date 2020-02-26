@@ -64,7 +64,7 @@ Navigation stack is an amazing tool to solve the path planing problem. This pack
 
 It is possible to adjust parameters as distance between the robot and obstacles, maximum speed and more. For more details, please visit http://wiki.ros.org/navigation.
 
-The next figure presents the result of the navigation stack aftar calculating the path to the provided goal. The green line corresponds to the global path plannig, also, it is possible to see blue outlines around the obstacles. The thickness of the outlines are regulated by the user, and how much bigger is, more distante the robot goes close to obstacles. 
+The next figure presents the result of the navigation stack aftar calculating the path to the provided goal. The green line corresponds to the global path plannig, also, it is possible to see blue outlines around the obstacles. The thickness of the outlines are regulated by the user, and how much bigger is, more distante the robot goes to obstacles. 
 
 <p align="center">
     <img src="./figs/navigation.png" width="600" height="360" title="Home Service Robot">
