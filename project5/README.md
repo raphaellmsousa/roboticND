@@ -6,8 +6,11 @@ This is the final project of the Robot Nanodegree from Udacity. The main goal is
 
 For this project, it was necessary to perform localization, mapping and navigation. Next, it is presented a brief explanation about these problems.
 
+<p align="center">
+    <img src="./figs/wally.png" width="600" height="360" title="Home Service Robot">
+</p> 
 
-[![IMAGE ALT TEXT HERE](https://www.youtube.com/watch?v=ej-vJydvp90&feature=youtu.be/0.jpg)](https://www.youtube.com/watch?v=ej-vJydvp90&feature=youtu.be)
+[![CLICK HERE TO SEE A REAL IMPLEMENTATION FOR THIS PROJECT](https://www.youtube.com/watch?v=ej-vJydvp90&feature=youtu.be/0.jpg)](https://www.youtube.com/watch?v=ej-vJydvp90&feature=youtu.be)
 
 ## Localization
 
