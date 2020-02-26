@@ -58,7 +58,7 @@ The next picture presents the gerereted 2d map.
 
 ## Navigation
 
-Navigation is the ability to navigate in an enviroment. In this project, the robot should follow a 2d navigation goal provided by the user. For this task, it was used the navigation stack package. As provided in the lessons "the ROS navigation stack creates a path for your robot based on Dijkstra's algorithm, a variant of the Uniform Cost Search algorithm, while avoiding obstacles on its path".
+Navigation is the ability to navigate in an enviroment. In this project, the robot should follow a 2d navigation goal provided by the user. For this task, it was used the navigation stack package. As provided in the lessons: "the ROS navigation stack creates a path for your robot based on Dijkstra's algorithm, a variant of the Uniform Cost Search algorithm, while avoiding obstacles on its path".
 
 Navigation stack is an amazing tool to solve the path planing problem. This package uses information of sensors, as odometry and LIDAR measurements, and the output is commands of velocity to move the robot for the goal position. 
 
