@@ -133,7 +133,7 @@ Next picture presents the result of mapping, localization and navigation for the
     <img src="./figs/project5.png" width="600" height="360" title="Home Service Robot">
 </p> 
 
-Here it is presented the marker used to simulate the pick up task. 
+Here it is presented the marker (the blue box) used to simulate the pick up task. 
 
 <p align="center">
     <img src="./figs/result1.png" width="600" height="360" title="Home Service Robot">
