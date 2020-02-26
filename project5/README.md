@@ -56,7 +56,7 @@ The next picture presents the gerereted 2d map.
     <img src="./figs/mapping.png" width="600" height="360" title="Home Service Robot">
 </p> 
 
-For an better mapping result, it was included the gmapping.launch.xlm file with some parameters, as follow:
+For a better mapping result, it was included the gmapping.launch.xlm file with some parameters, as follow:
 
 ```bash
 <launch>
