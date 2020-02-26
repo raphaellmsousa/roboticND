@@ -26,6 +26,38 @@ The next figure presents the results of the AMCL package. The green arrows repre
     <img src="./figs/localization.png" width="600" height="360" title="Home Service Robot">
 </p> 
 
+
+## Mapping
+
+Next requirement for the home service robot is to map the environment. ROS also provides some packages for mapping, in the project Map My World it was used the RTAB-Map (Real-Time Appearance-Based Mapping), it is possible to find more information about this package here wiki.ros.org/rtabmap_ros.
+
+Here in this project it was used the gmapping package for mapping. This package uses the occupancy grid algorithm to build a 2d map from the environment. It is possible to find more information here http://wiki.ros.org/gmapping.
+
+After mapping, it is possible to save the results with the follow command:
+
+```bash
+rosrun map_server map_saver -f /home/raphaell/workspace/catkin_ws/src/map
+```
+
+Obs.: after running the above command, we got this error:
+
+```bash
+rospack: error while loading shared libraries: librospack.so
+```
+To solve that, we had to share the ROS lib path as follow:
+
+```bash
+export LD_LIBRARY_PATH=/opt/ros/kinetic/lib
+```
+
+The next picture presents the gerereted 2d map.
+
+<p align="center">
+    <img src="./figs/mapping.png" width="600" height="360" title="Home Service Robot">
+</p> 
+
+## Navigation
+
 ## Instructions
 
 ##### 1. Install all required packages:
